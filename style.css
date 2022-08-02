@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  position: relative;
+}
+
+#drawingContainer {
+  padding-top: 100px;
+  position: absolute;
+  left: 50%;
+  top: 42.5%;
+  transform: translate(-50%, -50%);
+}
+
+#sketchpad {
+  display: block;
+  height: 600px;
+  width: 700px;
+  border: 2px solid rgb(70, 130, 180);
+}
+
+#sketchpadControls {
+  display: block;
+  height: 100px;
+  width: 700px;
+  background-color: rgb(70, 130, 180);
+  position: relative;
+}
+
+#subtract,
+#radius,
+#addition,
+#color,
+#clearCanvas {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+}
+
+#subtract {
+  left: 50px;
+}
+
+#radius {
+  left: 125px;
+  font-size: 40px;
+}
+
+#addition {
+  left: 200px;
+}
+
+#color {
+  left: 275px;
+  background-color: red;
+  outline: 10px solid white;
+  outline-offset: -10px;
+}
+
+#clearCanvas {
+  right: -10px;
+  font-size: 35px;
+}
+
+#plus {
+  font-size: 25px;
+}
+
+#minus {
+  font-size: 25px;
+}
